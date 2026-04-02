@@ -7,10 +7,6 @@
         margin-top: -259px;*/
 }
 
-.ps.disconnected {
-    background: url(ps3-assets/base-disconnect.png);
-}
-
 .ps.disconnected div {
     display: none;
 }
@@ -22,26 +18,12 @@
     left: 99px;
 }
 
-.ps .trigger {
-    width: 86px;
-    height: 65px;
-    background: url(ps3-assets/triggers.png);
-    opacity: 0;
-}
-
 .ps .trigger.left {
     float: left;
 }
 
 .ps .trigger.right {
     float: right;
-}
-
-.ps .bumper {
-    width: 89px;
-    height: 28px;
-    background: url(ps3-assets/bumpers.png);
-    opacity: 0;
 }
 
 .ps .bumpers {
@@ -64,15 +46,6 @@
 
 .ps .bumper.right {
     float: right;
-}
-
-.ps .quadrant {
-    position: absolute;
-    background: url(ps3-assets/player-n.png);
-    height: 17px;
-    width: 111px;
-    top: 140px;
-    left: 240px;
 }
 
 .ps .p0 {
@@ -99,12 +72,6 @@
     left: 291px;
 }
 
-.ps .back, .ps .start {
-    background: url(ps3-assets/menus.png);
-    width: 34px;
-    height: 19px;
-}
-
 .ps .back.pressed, .ps .start.pressed {
     background-position-y: -21px;
     margin-top: 2px;
@@ -127,13 +94,6 @@
     height: 205px;
     top: 156px;
     left: 538px;
-}
-
-.ps .button {
-    position: absolute;
-    width: 62px;
-    height: 62px;
-    background: url(ps3-assets/face-buttons.png);
 }
 
 .ps .button.pressed {
@@ -171,13 +131,6 @@
     left: 210px;
 }
 
-.ps .stick {
-    position: absolute;
-    background: url(ps3-assets/thumbs.png);
-    height: 105px;
-    width: 105px;
-}
-
 .ps .stick.pressed.left {
     background-position-x: -106px;
 }
@@ -202,11 +155,6 @@
     height: 132px;
     top: 192px;
     left: 74px;
-}
-
-.ps .face {
-    background: url(ps3-assets/dpad.png);
-    position: absolute;
 }
 
 .ps .face.up, .ps .face.down {
